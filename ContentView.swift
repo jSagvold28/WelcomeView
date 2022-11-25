@@ -15,6 +15,7 @@ struct ContentView: View {
             // Have a image that is going to be used from SF Symbols
             Image(systemName: "ph")
             Text("Welcome to ___")
+                .bold()
                 .font(.largeTitle)
                 .padding(.bottom, 25)
             Image("WelcomeImage1") // This image will change depending on what the application is
