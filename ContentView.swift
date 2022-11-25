@@ -18,7 +18,7 @@ struct ContentView: View {
                 .bold()
                 .font(.largeTitle)
                 .padding(.bottom, 25)
-            Image("WelcomeImage1") // This image will change depending on what the application is
+            Image("ph") // This image will change depending on what the application is
                 .resizable()
                 .frame(width: 280, height: 300)
                 .cornerRadius(30)
