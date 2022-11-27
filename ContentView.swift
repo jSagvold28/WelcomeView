@@ -18,6 +18,7 @@ struct ContentView: View {
                 .bold()
                 .font(.largeTitle)
                 .padding(.bottom, 25)
+                .padding(.top, 100)
             Image("ph") // This image will change depending on what the application is
                 .resizable()
                 .frame(width: 280, height: 300)
@@ -25,6 +26,9 @@ struct ContentView: View {
                 .padding(.bottom, 25)
             Text("A place that you have a welcome view.") // Change this
                 .font(.subheadline)
+            
+            
+            Spacer()
         }
     }
     
